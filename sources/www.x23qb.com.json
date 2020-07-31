@@ -32,6 +32,6 @@
         "filter": ["@dt"],
         "page": "a:matches(下一页)@attr->href@match->(.+)(_)(.+)(.html)",
         "purify": ["铅笔小说",
-        "(www.x23qb.com)"]
+        "\\(www.x23qb.com\\)"]
 }
 }
