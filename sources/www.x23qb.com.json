@@ -5,32 +5,26 @@
     "search": {
         "url": "https://www.x23qb.com/search.php@post->searchkey=${key}",
         "charset": "gbk",
-        "list": "#sitebox>#nr",
-        "name": "h3>a",
-        "author": "",
-        "cover": "a>img",
-		"summary": "dd.book_des",
-        "detail": "h3>a"
+        "list": "#nr",
+        "name": "h3 > a",
+        "cover": "dt > a > img@attr->_src",
+        "detail": "h3 > a@attr->href"
     },
     "detail": {
         "name": "meta[property=og:novel:book_name]@attr->content",
         "author": "meta[property=og:novel:author]@attr->content",
         "cover": "meta[property=og:image]@attr->content",
-        "summary": "#bookintro>p:nth-child(1)",
+        "summary": "meta[property=og:description]@attr->content",
         "status": "meta[property=og:novel:status]@attr->content",
         "update": "meta[property=og:novel:update_time]@attr->content",
-        "lastChapter": "meta[property=og:novel:latest_chapter_name]@attr->content",
-        "catalog": ""
+        "lastChapter": "meta[property=og:novel:latest_chapter_name]@attr->content"
     },
     "catalog": {
-        "list": "#chapterList>li",
+        "list": "#chapterList > li",
         "name": "a",
-        "chapter": "a"
+        "chapter": "a@attr->href"
     },
     "chapter": {
-        "content": "#TextContent",
-        "filter": ["@dt"],
-        "page": "a:matches(下一页)@attr->href@match->(.+)(_)(.+)(.html)",
-        "purify": ["铅笔小说.*?x23qb.com)"]
-}
+        "content": "#TextContent > p"
+    }
 }
