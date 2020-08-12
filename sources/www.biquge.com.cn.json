@@ -28,6 +28,7 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content"
+        "content": "#content",
+        "purify": ["[.+?(.com|.net|.cn|.org|.info)]"]
     }
 }
