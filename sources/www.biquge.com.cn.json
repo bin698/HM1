@@ -1,7 +1,7 @@
 {
-    "name": "👁‍🗨笔趣阁¹",
+    "name": "💥笔趣阁",
     "url": "www.biquge.com.cn/",
-    "version": 101,
+    "version": 102,
     "search": {
         "url": "https://www.biquge.com.cn/search.php?q=${key}",
         "charset": "utf-8",
@@ -28,7 +28,6 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content",
-        "purify": ["[.+?(.com|.net|.cn|.org|.info)]"]
+        "content": "#content"
     }
 }

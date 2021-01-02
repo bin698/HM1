@@ -1,10 +1,9 @@
 {
-    "name": "👁‍🗨九桃网",
-    "url": "www.9txs.com/",
-    "version": 102,
+    "name": "💥九桃网",
+    "url": "www.9txs.com",
+    "version": 101,
     "search": {
         "url": "https://www.9txs.com/search.html@post->searchkey=${key}",
-        "charset": "utf-8",       
         "list": "ul.library > li",
         "name": "a.bookname",
         "author": "a.author",
@@ -31,6 +30,7 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content > p:gt(0)"
+        "content": "#content > p:gt(0)",
+        "purify": ["您可以在百度里搜索.+最新章节！"]
     }
 }
