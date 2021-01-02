@@ -1,6 +1,6 @@
 {
     "name": "💥读一读",
-    "url": "du1du.org",
+    "url": "du1du.org/",
     "version": 101,
     "search": {
         "url": "http://du1du.org/search.htm?keyword=${key}",

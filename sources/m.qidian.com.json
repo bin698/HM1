@@ -1,6 +1,6 @@
 {
     "name": "💯起点网",
-    "url": "m.qidian.com",
+    "url": "m.qidian.com/",
     "version": 103,
     "search": {
         "url": "https://m.qidian.com/majax/search/list?kw=${key}",
