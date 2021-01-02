@@ -1,6 +1,6 @@
 {
-    "name": "💥九桃网",
-    "url": "www.9txs.com",
+    "name": "🥇九桃网",
+    "url": "www.9txs.com/",
     "version": 101,
     "search": {
         "url": "https://www.9txs.com/search.html@post->searchkey=${key}",
