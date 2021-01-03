@@ -1,7 +1,7 @@
 {
     "name": "💥起点网",
     "url": "m.qidian.com/",
-    "version": 103,
+    "version": 105,
     "search": {
         "url": "https://m.qidian.com/majax/search/list?kw=${key}",
         "list": "$..records[*]",
@@ -105,7 +105,7 @@
         },
         {
             "title":"新书抢鲜",
-            "url": "https://m.qidian.com/majax/newbooklist?gender=${key}&pageNum=${page}",
+            "url": "https://m.qidian.com/majax/recommend/newbooklist?gender=${key}&pageNum=${page}",
             "page": 1,
             "size": 20,
             "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
@@ -113,7 +113,7 @@
         },
         {
             "title":"畅销完本",
-            "url": "https://m.qidian.com/majax/bestselllist?gender=${key}&pageNum=${page}",
+            "url": "https://m.qidian.com/bestselllist?gender=${key}&pageNum=${page}",
             "page": 1,
             "size": 20,
             "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
@@ -121,7 +121,7 @@
         },
         {
             "title":"大神作品",
-            "url": "https://m.qidian.com/majax/dashenlist?gender=${key}&pageNum=${page}",
+            "url": "https://m.qidian.com/majax/recommend/dashenlist?gender=${key}&pageNum=${page}",
             "page": 1,
             "size": 20,
             "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
