@@ -28,8 +28,7 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content",
-        "filter": ["@p","@div"],
+        "content": "#content",        
         "purify": ["\[.*www.*\]"]
     }
 }
