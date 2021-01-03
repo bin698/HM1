@@ -29,6 +29,6 @@
     },
     "chapter": {
         "content": "#content",        
-        "purify": ["\[.*www.*\]"]
+        "purify": ["[.*www.*]"]
     }
 }
