@@ -1,7 +1,7 @@
 {
-    "name": "✅读一读",
+    "name": "♾️读一读",
     "url": "du1du.org/",
-    "version": 102,
+    "version": 101,
     "search": {
         "url": "http://du1du.org/search.htm?keyword=${key}",
         "charset": "utf-8",
