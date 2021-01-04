@@ -96,14 +96,6 @@
             "cover": "https://bookcover.yuewen.com/qdbimg/349573/${$.bid}/150"
         },
         {
-            "title":"作品完结",
-            "url": "https://m.qidian.com/majax/recommend/bestSelllist?gender=${key}&pageNum=${page}",
-            "page": 1,
-            "size": 20,
-            "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
-            "cover": "https://bookcover.yuewen.com/qdbimg/349573/${$.bid}/150"
-        },
-        {
             "title":"新书抢鲜",
             "url": "https://m.qidian.com/majax/recommend/newbooklist?gender=${key}&pageNum=${page}",
             "page": 1,
@@ -113,7 +105,7 @@
         },
         {
             "title":"畅销完本",
-            "url": "https://m.qidian.com/bestselllist?gender=${key}&pageNum=${page}",
+            "url": "https://m.qidian.com/majax/recommend/bestselllist?gender=${key}&pageNum=${page}",
             "page": 1,
             "size": 20,
             "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
@@ -121,7 +113,7 @@
         },
         {
             "title":"大神作品",
-            "url": "https://m.qidian.com/majax/recommend/dashenlist?gender=${key}&pageNum=${page}",
+            "url": "https://m.qidian.com/majax/dashenlist?gender=${key}&pageNum=${page}",
             "page": 1,
             "size": 20,
             "categories": [{"key": "male", "value": "男频"}, {"key": "female", "value": "女频"}],
