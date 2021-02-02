@@ -1,0 +1,38 @@
+{
+    "name": "💥手打吧",
+    "url": "www.shouda8.com",
+    "version": 100,
+    "search": {
+        "url": "https://www.shouda8.com/search.html@post->searchkey=${key}",
+        "charset": "UTF-8",
+        "list": "#alistbox",
+        "name": "h2 > a",
+        "author": ".title > span > a",
+        "cover": "img",
+        "summary": ".intro",
+        "detail": "a"
+    },
+    "detail": {
+        "name": "",
+        "author": "",
+        "cover": "",
+        "summary": "",
+        "status": ".top > span:nth-child(3)@match->(?<=小说状态：)(.+)",
+        "update": ".top > span:nth-child(4)@match->(?<=更新时间：)(.+)",
+        "lastChapter": "meta[property=og:novel:latest_chapter_name]@attr->content",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": ".link_14 > dl",
+        "orderBy": 0,
+        "booklet": {
+            "name": "dt > b",
+            "list": "dd"
+        },
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content"
+    }
+}

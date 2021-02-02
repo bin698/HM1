@@ -1,0 +1,29 @@
+{
+    "name": "💥燃文小说",
+    "url": "www.ranwen.com",
+    "version": 101,
+    "search": {
+        "url": "https://www.ranwen.com/s.php?ie=gbk&q=${key}",
+        "charset": "UTF-8",
+        "list": "div>div.bookbox",
+        "name": ".bookname",
+        "author": ".author@match->(?<=作者：).+",
+        "detail":".bookname>a"
+    },
+    "detail": {
+        "cover":"#fmimg>img",
+        "status":"#info>p:nth-child(3)@match->(?<=状 态：).+",
+        "auther":"#info>p:nth-child(4)@match->(?<=作 者：).+",
+        "update": "#info>p:nth-child(7)@match->(?<=最后更新：).+",
+        "lastChapter": "#info>p:nth-child(6)",
+        "summary":"#intro"
+        },
+    "catalog": {
+        "list": ".listmain>dl>dd",
+        "name": "dd>a",
+        "chapter": "dd>a"
+    },
+    "chapter": {
+        "content": "#content"
+    }
+}
