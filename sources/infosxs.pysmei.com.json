@@ -1,0 +1,25 @@
+{
+    "name": "App-2",
+    "url": "infosxs.pysmei.com",
+    "version": 100,
+    "search": {
+        "url": "https://souxs.leeyegy.com/search.aspx?key={{key}",
+        "charset": "UTF-8",
+        "list": "$..BookList[*]",
+        "name": "$.Name",
+        "author": "$.Author",
+        "cover": "$.Img",
+        "detail": ""
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "$..list[*]",
+        "name": "$.name",
+        "chapter": "$.html"
+    },
+    "chapter": {
+        "content": "$.data.content"
+    }
+}

@@ -1,7 +1,7 @@
 {
-    "name": "💥笔趣阁",
+    "name": "笔趣阁ᶜᵒᵐ",
     "url": "www.biquge.com.cn/",
-    "version": 102,
+    "version": 104,
     "search": {
         "url": "https://www.biquge.com.cn/search.php?q=${key}",
         "charset": "utf-8",
@@ -24,11 +24,11 @@
     },
     "catalog": {
         "list": "#list > dl > dd",
-        "name": "a",
+        "name": "a@replace->（求月票）->",
         "chapter": "a"
     },
     "chapter": {
         "content": "#content",        
-        "purify": ["[.*www.*]"]
+        "purify": ["[.*?]"]
     }
 }

@@ -1,6 +1,6 @@
 {
-    "name": "💥全小说",
-    "url": "qxs.la",
+    "name": "全小说",
+    "url": "qxs.la/",
     "version": 102,
     "search": {
         "url": "https://qxs.la/s_${key}",

@@ -1,9 +1,9 @@
 {
-    "name": "九桃网ᶜᵒᵐ",
-    "url": "www.9txs.com",
+    "name": "九桃网ᵒʳᵍ",
+    "url": "www.9txs.org/",
     "version": 103,
     "search": {
-        "url": "https://so.9txs.com/www/@post->searchkey=${key}",
+        "url": "https://so.9txs.org/www/@post->searchkey=${key}",
         "list": ".library > li",
         "name": "a.bookname",
         "author":"a.author",
@@ -27,6 +27,6 @@
     },
     "chapter": {    
         "content": "#content>p",
-        "purify":["您可以在百.+查找最新章节！"]
+        "purify":["您可以在百度里搜索.+查找最新章节！"]
     }
 }
